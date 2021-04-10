@@ -12,8 +12,8 @@ def print_hi(name):
 
 
 # Press the green button in the gutter to run the script.
-if str == '_main_':
-    print('What is your name?') # ask for their name
+if __name__ == '__main__':
+    print('What is your name?')  # ask for their name
     personName = input()
     print('It is good to meet you, ' + personName)
 
@@ -22,6 +22,6 @@ if str == '_main_':
     print('You will be ' + str(int(personAge) + 1) + ' in a year.')
 
     print('Type something and I will count the length of that sentence?')  # ask for their age
-    personAge = input()
-
+    sentence = input()
+    print('The length of your sentence is ' + str(len(sentence)))
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
